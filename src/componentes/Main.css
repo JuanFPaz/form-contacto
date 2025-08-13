@@ -1,0 +1,39 @@
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main h1,
+main h2,
+main h3 {
+  margin: 0;
+}
+
+section {
+  width: 100%;
+}
+
+b {
+  font-weight: 600;
+}
+
+section div#sobremi,
+section div#habilidades,
+section div#experiencia,
+section div#contacto,
+section div#proyectos {
+  scroll-margin-top: 10px; /* Ajusta este valor según sea necesario */
+}
+
+
+@media (min-width: 992px) {
+  section div#sobremi h1,
+  section div#habilidades h1,
+  section div#experiencia h1,
+  section div#experiencia h2,
+  section div#contacto h1,
+  section div#proyectos h1 {
+    text-align: start;
+  }
+}
