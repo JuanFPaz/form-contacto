@@ -3,12 +3,19 @@
   color: #f2f5ff;
 }
 
-#contacto label{
+#contacto label,
+#contacto p{
   color: #f2f5ff;
 }
 
+#contacto label,
+#contacto button,
 #contacto p {
   font-size: 1.6rem;
+}
+
+#contacto button{
+  width: 100%;
 }
 
 #contacto b {
@@ -55,7 +62,8 @@
 
 #contacto input,
 #contacto textarea{
+  font-size: 1.2rem;
     color: #ffffff;
-    border-width: 2px;
+    border: 2px solid rgb(0, 145, 255);;
     background-color:  rgb(14 39 77);;
 }
